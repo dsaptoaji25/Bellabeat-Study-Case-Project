@@ -1,2 +1,0 @@
-# Data Directory
-This directory stores all data assets used in the Bellabeat analytics pipeline.
