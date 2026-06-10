@@ -20,3 +20,33 @@ Bellabeat is a high-tech manufacturer of health-focused smart products tailored 
 3. **Holistic Brand Repositioning:** Evolve Bellabeat's market positioning from a standard step tracker into an indispensable wellness companion that integrates activity tracking, sleep optimization, and specialized women's health insights.
 4. **Behavioral Nudges for Retention:** Introduce micro-reminders (such as quick stretching prompts) to actively reduce prolonged sedentary time and drive sustained habit formation.
 5. **Community-Driven Growth:** Launch recurring community engagement campaigns, including weekend fitness challenges and step streaks, to cultivate long-term brand loyalty.
+
+## Repository Navigation & Deliverables Blueprint
+
+For efficient evaluation by executive leadership and technical auditors, the primary assets are mapped as follows:
+
+* **Executive Strategy Deck:** To review the high-level growth roadmap, marketing implications, and stakeholder presentation, access the verified document inside the [deliverables/](deliverables/) folder.
+* **Refined Data Pipeline:** To audit the statistical transformations, regression models, and data cleansing methodology, explore the live notebook inside the [notebooks/](notebooks/) folder.
+* **Auditable Source Data:** To examine the original fitness tracker data layers utilized for this study, refer to the compressed archives secured in the [data/raw/](data/raw/) path.
+
+## Analytical Workflow & Methodology
+
+The data pipeline is designed for reproducibility, transforming fragmented data points into strategic business intelligence. The Python notebook in this repository follows a rigorous analytical framework:
+
+### Phase 1: Data Audit and Integrity Checks
+Initial exploration focuses on establishing data quality. This involves identifying unique participant identifiers, verifying sample sizes, and assessing the frequency of data logging across the tracking period.
+
+### Phase 2: Data Cleaning and Standardization
+To ensure accurate reporting, missing values are resolved and temporal data types are standardized. Activity metrics are consolidated into uniform categories, filtering out anomalies or incomplete tracking days that could skew the final business analysis.
+
+### Phase 3: Behavioral Segmentation and Trend Analysis
+Users are segmented based on their activity habits, sleep patterns, and device utilization rates. Statistical correlations are applied to determine the relationship between daily movement duration, intensity levels, and energy expenditure.
+
+## Supporting Documentation and Infrastructure
+
+### Data Source Credentials
+The analysis utilizes public domain smart device fitness data from Fitbit trackers. The dataset contains minute-level output for physical activity, heart rate, and sleep monitoring, providing a verified foundation for understanding modern wellness routines.
+
+### Technical Environment and Deliverables
+* **Analytical Environment:** Built using Python and core data science libraries including Pandas for data manipulation and Seaborn for initial exploratory visualization.
+* **Executive Assets:** The deliverables folder contains a polished presentation deck designed for corporate stakeholders, focusing entirely on market growth opportunities, strategic positioning, and business impact.
